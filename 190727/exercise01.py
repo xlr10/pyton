@@ -45,6 +45,6 @@ e = 10
 print("now %d%% %d%%" %(e, 3))
 
 print("asd {0:<10} asd {1:-^10}".format("asd",2))
-print( "here: {here:-^10}\nthere: {there}".format(here=1,there="asd"))
+print('here: {here:-^10}\nthere: {there}'.format(here=1, there="asd"))
 
 print(multiLine.upper())
